@@ -18,7 +18,7 @@ def benchmark(matrix_size):
     return end_time - start_time
 
 if __name__ == "__main__":
-    matrix_size = 10000  # Tamaño de las matrices (ajustar según sea necesario)
+    matrix_size = 1000  # Tamaño de las matrices (ajustar según sea necesario)
     
     time_taken = benchmark(matrix_size)
     print(f"Tiempo tomado para multiplicar matrices de tamaño {matrix_size}x{matrix_size}: {time_taken} segundos")
